@@ -1,10 +1,12 @@
+<div align="center">
+
 # 🌐 Portfólio Pessoal — HTML5 & Estruturação Web
 
-<p align="center">
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
-  <img src="https://img.shields.io/badge/SENAI-A.%20JACOB%20LAFER-E34F26?style=for-the-badge" alt="SENAI" />
-  <img src="https://img.shields.io/badge/STATUS-CONCLUÍDO-4c1?style=for-the-badge" alt="Status" />
-</p>
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![SENAI](https://img.shields.io/badge/SENAI-A._Jacob_Lafer-E31E24?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Conclu%C3%ADdo-brightgreen?style=for-the-badge)
+
+</div>
 
 Este projeto consiste em um **Portfólio Pessoal** desenvolvido em HTML5 puro, criado como parte das atividades práticas do curso. O repositório demonstra a aplicação de conceitos fundamentais de estruturação web, semântica, criação de tabelas, formulários e navegação interna.
 
@@ -52,4 +54,4 @@ Este projeto consiste em um **Portfólio Pessoal** desenvolvido em HTML5 puro, c
 
 ---
 
-<p center="align"><i>Projeto desenvolvido durante as aulas de Linguagem de Marcação no SENAI A. Jacob Lafer.</i></p>
+<p align="center"><i>Projeto desenvolvido durante as aulas de Linguagem de Marcação no SENAI A. Jacob Lafer.</i></p>
