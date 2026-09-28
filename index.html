@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio Pessoal</title>
+</head>
+<body>
+    <header>
+        <h1>Maria Eduarda Vilela - Desenvolvedor Web</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+
+    <main>
+        <section id="sobre">
+            <h2>Sobre Mim</h2>
+            <img src="assets/eu.jpeg" alt="Maria Eduarda" width="200" height="250">
+            <p>Sou estudante de <strong>Desenvolvimento de Sistemas</strong> no SENAI.</p>
+            <p>Tenho conhecimento em <em>HTML, CSS</em> e estou aprendendo <em>PHP e Myslq</em>.</p>
+
+            <article>
+                <h3>Minhas Habilidades:</h3> 
+                <ul style="list-style-type: disc;">
+                    <li>HTML5 Semântico</li>
+                    <li>CSS3 e Responsividade</li>
+                    <li>Formulários e Validação</li>
+                    <li>Estruturação de dados</li>
+                </ul>
+            </article>
+        </section>
+        <hr>
+
+        <section id="projetos">
+            <h2>Meus Projetos</h2>
+            <table border="1" cellpadding="20" cellspacing="0">
+                <!-- Cabeçalho da tabela -->
+                <thead>
+                    <tr>
+                        <th>Projeto</th>
+                        <th>Tecnologias</th>
+                        <th>Status</th>
+                        <th>Link</th>
+                    </tr>
+                </thead>
+                <!-- Corpo da tabela -->
+                 <tbody>
+                    <tr>
+                        <td>GameZone Retro</td>
+                        <td>HTML, CSS</td>
+                        <td>Concluído</td>
+                        <td><a href="https://github.com/Mariabrito09/Atv05_GameZone_Retro">Ver Projeto</a></td>
+                    </tr>
+                    <tr>
+                        <td>Verificador de Maioridade</td>
+                        <td>PHP, HTML</td>
+                        <td>Concluído</td>
+                        <td><a href="https://github.com/Mariabrito09/Verificador_de_Maioridade">Ver Projeto</a></td>
+                    </tr>
+                    <tr>
+                        <td>Identidade Visual</td>
+                        <td>Figma, HTML, CSS</td>
+                        <td>Concluída</td>
+                        <td><a href="https://github.com/Mariabrito09/Identidade_Visual">Ver Projeto</a></td>
+                    </tr>
+                 </tbody>
+            </table>
+        </section> <br>
+        <hr>
+
+        <section id="contato">
+            <h2>Entre em Contato</h2>
+            <form action="processar.php" method="post">
+                <fieldset>
+                    <legend>Dados do Contato</legend>
+                <label for="nome">Nome: </label><br>
+                <input type="text" name="nome" id="nome" required><br><br>
+
+                <label for="email">Email: </label><br>
+                <input type="email" name="email" id="email" required><br><br>
+
+                <label for="assunto">Assunto:</label><br>
+                <select name="assunto" id="assunto">
+                    <option value="oportunidade">Oportunidade de Trabalho</option>
+                    <option value="proposta">Proposta de Projeto</option>
+                    <option value="contato">Contato Geral</option>
+                </select><br><br>
+
+                <label for="mensagem">Mensagem: </label><br>
+                <textarea name="mensagem" id="mensagem" rows="5" cols="22"></textarea><br><br>
+
+                <button type="submit">Enviar Mensagem</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Meta. Desenvolvido durante o curso do SENAI.</p>
+        <hr>
+        <address>
+            <a href="mailto:mariavilela.brito@gmail.com">mariavilela.brito@gmail.com | (11)94234-2546</a>
+        </address>
+    </footer>
+</body>
+</html>
