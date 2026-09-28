@@ -59,12 +59,5 @@ Este projeto consiste em um **Portfólio Pessoal** desenvolvido em HTML5 puro, c
 
 ---
 
-## ✉️ Contato
-
-- **Desenvolvido por:** Maria Eduarda Vilela
-- **E-mail:** [mariavilela.brito@gmail.com](mailto:mariavilela.brito@gmail.com)
-- **GitHub:** [@Mariabrito09](https://github.com/Mariabrito09)
-
----
 
 <p center="align"><i>Projeto desenvolvido durante as aulas de Linguagem de Marcação no SENAI A. Jacob Lafer.</i></p>
